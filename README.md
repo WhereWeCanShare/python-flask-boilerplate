@@ -2,24 +2,20 @@
 
 [1999] I am new in Python Web Development. Looking for the best practice about the project file/folder structure and could not found any. Only found piece by piece from tutorial.
 
-Thinking it would be worth to have my own Python Flask boilerplate from the ideas and technique in those reference.
+Thinking it would be worth to have my own Python Flask boilerplate from the ideas and technique in below references.
 
 Also it would be great to share this out to anyone who like it.
 
 ## Requirement
 This boilerplate is using library list here but feel free to add any to meet your requirement.
-```shell
-python3 -m venv venv
-source venv/bin/activate
-pip install dotenv
-pip install flask
-pip install flask-sqlalchemy
-pip install gunicorn
+- Python 3.7
+- dotenv
+- flask
+- flask-sqlalchmy
+- gunicorn
 
-## if you plan to use PostgreSQL, this required
-pip install psycopg2
-
-```
+*if you plan to use PostgreSQL, this required*
+- psycopg2
 
 ## Overview structure
 `$ tree -a --dirsfirst`
@@ -55,6 +51,12 @@ pip install psycopg2
 ├── README.md
 └── wsgi.py
 ```
+## How to
+- [download](https://github.com/wannadrunk/python-flask-boilerplate/archive/master.zip) this repository
+- rename `nameyourapp` according to your project.
+- update and develop source code.
+- If you use `pipenv`, you can just `$ pipenv install` all basic library will be installed.
+
 ## Explanation
 - `wsgi.py` will be the entry point for the production environment.
 - `.env` where you put all sensitive settings/keys like TOKEN, API-KEY
@@ -65,7 +67,11 @@ FLASK_ENV=development
 FLASK_DEBUG=true
 ```
 - `nameyourapp/__initi__.py` is the starting point.
-
+- `nameyourapp/models.py` where you define your data tables.
+- `nameyourapp/routes.py` your Blueprint module/function
+- `nameyourapp/settings.py` put all settings/configurations.
+- `api` is the sample Blueprint module.
+- `nameyourmodule` put any of your separate module here.
 
 ## References and Credits
 - [Demystifying Flask’s Application Factory](https://hackersandslackers.com/flask-application-factory/), Hackers & Slacker
