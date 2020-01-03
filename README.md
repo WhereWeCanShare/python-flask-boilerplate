@@ -56,6 +56,7 @@ This boilerplate is using library list here but feel free to add any to meet you
 - rename `nameyourapp` according to your project.
 - update and develop source code.
 - If you use `pipenv`, you can just `$ pipenv install` all basic library will be installed.
+- In the development environment, you can run `flask run` to start your app.
 
 ## Explanation
 - `wsgi.py` will be the entry point for the production environment.
