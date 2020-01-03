@@ -1,0 +1,3 @@
+FLASK_APP=nameyourapp
+FLASK_ENV=development
+FLASK_DEBUG=true
