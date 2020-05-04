@@ -12,6 +12,7 @@ This boilerplate is using library list here but feel free to add any to meet you
 - dotenv
 - flask
 - flask-sqlalchmy
+- flask-wtf
 - gunicorn
 
 *if you plan to use PostgreSQL, this required*
@@ -38,6 +39,7 @@ This boilerplate is using library list here but feel free to add any to meet you
 │   │   ├── index.html
 │   │   └── layout.html
 │   ├── extensions.py
+│   ├── forms.py
 │   ├── __init__.py
 │   ├── models.py
 │   ├── routes.py
