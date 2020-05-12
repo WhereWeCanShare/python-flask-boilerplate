@@ -12,6 +12,9 @@ flask-wtf = "*"
 python-dotenv = "*"
 gunicorn = "*"
 psycopg2 = "*"
+flask-migrate = "*"
+flask-script = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
