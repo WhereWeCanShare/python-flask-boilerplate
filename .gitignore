@@ -13,6 +13,7 @@ Pipfile.lock
 
 ### dotenv ###
 
+
 ### Flask ###
 instance/*
 !instance/.gitignore
