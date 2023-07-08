@@ -85,6 +85,4 @@ FLASK_DEBUG=true
 - [Python Flask Tutorial: Full-Featured Web App Part 5 - Package Structure](https://youtu.be/44PvX0Yv368), Corey Schafer YouTube Channel
 
 ### Thank you
-![cHoo logo](https://chookiat.com/biz/wp-content/uploads/2017/04/logo-choo300x96.png)
 
-> If you found this boilerplate is useful and would like to buy me a coffee, here is the link https://paypal.me/ChookiatJ
